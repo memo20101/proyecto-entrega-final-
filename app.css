@@ -1,0 +1,307 @@
+html, body, .Contenedor
+{ height: 100%;
+}
+
+*
+{ margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  text-align: left;
+  color: #363636;
+  font-size: 24px;
+}
+
+
+html
+{ width: 100%;
+  height:100%;
+  float: left;
+}
+
+body
+{ width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.Contenedor
+{ width: 100%;
+  height: 100%;
+  float: left;
+}
+
+div
+{ width: 100%;
+  float: left;
+}
+
+button
+{ cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+  float: left;
+  text-align: center;
+}
+
+input
+{ float: left;
+  border: solid 1px #bcbcbc;
+  height: 0.5rem;
+  font-size: 0.7rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  font-weight: 300;
+}
+
+h1
+{ margin-left: 2%;
+  float: left ;
+}
+
+img
+{ width: 100%;
+  float: left;
+}
+
+.BarraPpal
+{   width: 30%;
+    height: 70%;
+    margin: 3% 3% 0% 3%;
+    border-right: solid 1px #d9d9d9;
+}
+
+.Titulo
+{   border-bottom:solid 1px #d9d9d9;
+    width: 95%;
+    height: 13%;
+}
+
+.Titulo span
+{   font-size: 1.2rem;
+  font-weight: bold;
+  margin: 12%;
+}
+.Modulos {
+  height: 60%;
+  padding: 10% 5%;
+  width: 90%;
+}
+
+.mOpcion
+{ display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 15%;
+}
+
+.mmOpcion
+{ display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 15%;
+}
+
+.Modulos .mOpcion span
+{ font-size: 0.85rem;
+  font-weight: 500;
+  width: 95%;
+}
+
+.Burbuja
+{ width: 4%;
+  height: 24%;
+  border-radius: 100%;
+  color: #4a86e8ff;
+  margin: 2.5% 8%;
+}
+
+#bCrear
+{ visibility: hidden;
+}
+
+#bMensaje
+{ visibility: hidden;
+}
+#bSalir
+{ visibility: hidden;
+}
+
+#Mail
+{ display: none;
+
+}
+
+.Content
+{ width: 63%;
+  height: 80%;
+}
+
+.vSolicitudes
+{ width: 100%;
+  height: 100%;
+}
+
+.Solicitud
+{ width: 20%;
+  border: solid 1px #4a86e8;
+  padding: 2%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  border-radius: 5%;
+  margin: 5% 5% 0 0%;
+  position: relative;
+  cursor: pointer;
+}
+
+.Solicitud img:nth-of-type(1)
+{ position: absolute;
+  width: 5%;
+  right: 5%;
+  cursor: pointer;
+}
+
+#sEdit
+{ position: absolute;
+  width: 5%;
+  right: 5%;
+  top: 40%;
+  cursor: pointer;
+}
+
+.Solicitud span
+{ font-size: 0.6rem;
+  width: 100%;
+  float: left;
+}
+
+
+.cSolicitudes
+{ display: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.cSolicitudes button
+{ color: white;
+  width: 30%;
+  background: #4a86e8;
+  margin: 2%;
+  width: 20%;
+  position: absolute;
+  right: 4%;
+
+}
+
+.Crear
+{ width: 90%;
+  border-radius: 2%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  padding: 2%;
+  border: solid 1px #4a86e8;
+  margin-top: calc(6% + 1rem);
+}
+
+.MensCrear
+{ width: 80%;
+  border-radius: 2%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  padding: 2%;
+  border: solid 1px #4a86e8;
+  margin-top: calc(6% + 1rem);
+  margin-top: 12%;
+}
+
+.MensCrear input
+{ width: 93%;
+margin-bottom: 5%;
+}
+
+.Contacto button
+{ color: white;
+  background: #4a86e8;
+  margin: 2% 2% 5% 2%;
+  width: 12%;
+  position: absolute;
+  right: 9%;
+}
+
+.MensCrear textarea
+{ width: 96%;
+  padding: 2%;
+  border-radius: 0.4rem;
+  border: solid 1px #d9d9d9;
+  color: #363636;
+  font-size: 0.7rem;
+}
+
+#iFecha
+{ width: 20%;
+  margin:0 0 3% 0%;
+}
+
+#iNo
+{ width: 10%;
+  margin:0 0 3% 3%;
+}
+
+#iDoc
+{ width: 5%;
+  margin:0 0 3% 0%;
+}
+#inDoc
+{ width: 60%;
+  margin:0 0 3% 3%;
+}
+#iNombre
+{ width: 90%;
+  margin:0 0 3% 0%;
+}
+#iDesc
+{ width:90%;
+  margin:0 0 3% 0%;
+}
+
+.Contacto
+{ display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.Menu
+{ width: 94%;
+  height: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: solid 1px #d9d9d9;
+  margin: 0 3% 0 3%;
+}
+
+.Opciones
+{ width: 30%;
+  border-left: solid 1px #d9d9d9;
+  border-right: solid 1px #d9d9d9;
+  margin: 2%;
+}
+
+.oOpcion
+{ width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+
+}
+.oOpcion img:nth-of-type(1)
+{ width: 50%;
+
+}
+
+.oOpcion .Burbuja
+{ width: 13%;
+
+}
+

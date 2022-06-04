@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang ="es">
+    <head>
+        <title>Proyecto Final Desarrollo Web</title>
+        <meta charset="UTF-8">
+        <meta name = "title" content= "Proyecto">
+        <meta name ="description" content = "Entrega de Proyecto final">
+        <link rel="stylesheet" type = "text/css" href="app.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        
+        <div class = "Contenedor">
+            <div class="BarraPpal">
+                <div class="Titulo">
+                    <span id="TitPrinc">Mis solicitudes</span>
+                </div>
+                <div class="Modulos">
+                    <div class="mOpcion">     
+                        <img class="Burbuja" id="bVer" src="Burbuja.png">
+                        <span>Ver mis solicitudes</span>
+                    </div>
+                    <div class="mOpcion">
+                        <img class="Burbuja" id="bCrear" src="Burbuja.png">
+                        <span>Crear Solicitud</span>
+                    </div>
+                    <div class="mmOpcion" id="Mail">
+                        <img class="Burbuja" id="bMail" src="Burbuja.png">
+                        <span>Envienos un Mail</span>
+                    </div>
+                </div>
+            </div>
+            <div class="Content">
+                <div class="vSolicitudes" id="vSolicitudes">    
+                
+                </div>
+                
+                <div class="cSolicitudes"id="cSolicitudes">        
+                    <button>Guardar</button>
+                    <div class="Crear">
+                        <div>
+                            <input type="date" id="iFecha" placeholder="Fecha">
+                            <input type="number" id="iNo" placeholder="No: ">
+                        </div>
+                        <div>
+                            <input type="text" id="iDoc" placeholder="Doc">
+                            <input type="number" id="inDoc" placeholder="No. Identificación">
+                        </div>
+                        <input type="text" id="iNombre"placeholder="Nombre Completo">
+                        <input type="text" id="iDesc"placeholder="Escriba su solicitud lo mas detallada posible">
+                    </div>
+                </div>
+
+                <div class="Contacto"id="Contacto">       
+                    <button>Enviar</button>
+                    <div class="MensCrear">
+                        <input type="text" id="mCorreo" placeholder="Correo">
+                        <input type="text" id="mAsunto" placeholder="Asunto">
+                        <textarea name="MensajeMail" id="mMensaje" cols="30" rows="7" placeholder="Descripcion"></textarea>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="Menu">
+                <div class="Opciones">
+                    <div class="oOpcion">                        
+                        <img id="oMsg" src="Mensaje.png">
+                        <img class="Burbuja" id="bMensaje" src="Burbuja.png">
+                    </div>
+                    <div class="oOpcion">
+                        <img id="oHome" src="Home.png">
+                        <img class="Burbuja" id="bHome" src="Burbuja.png">
+                    </div>
+                    <div class="oOpcion">
+                        <img id="oSalir" src="Salir.png">
+                        <img class="Burbuja" id="bSalir" src="Burbuja.png">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>    
+
+</html>
